@@ -76,7 +76,7 @@ li a{
     text-align: center;
 	overflow: hidden;
 }
-<!--nueva sección-->
+
 .wd{
     margin-top: 50px;
     background: #ffffff;
@@ -104,7 +104,7 @@ li a{
 .ib{
     background: #fafafa;
 }
-<!--nueva sección-->
+
 #center-wd{
     display:flex;
     justify-content: center;
@@ -145,7 +145,7 @@ li a{
     align-items: center;
 }
 
-<!--nueva sección-->
+
 .ac{
     margin-top: 50px;
 }
@@ -274,20 +274,22 @@ li a{
     color:#5193CB;
     font-weight:600;
 }
-<!--nueva sección-->
-#team {
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+
+.bg-black{
+    background:#111111;
 }
+
 #name-team{
     display:flex;
     justify-content: center;
     align-items: center;
 }
-.bg-black{
-    background:#111111;
+#team {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 30px;
 }
 #radio-img{
     height: 200px;
