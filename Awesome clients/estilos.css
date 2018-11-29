@@ -1,0 +1,132 @@
+.wrap{
+	margin:0 auto;
+	width:80%;
+}
+.ac{
+	margin-top: 50px;
+}
+#radio{
+	background: #111111;
+	height: 200px;
+	width: 200px;
+	border-radius: 100px;
+}
+#radio2{
+	background: #111111;
+	height: 200px;
+	width: 200px;
+	border-radius: 100px;
+	margin-top: 25px;
+    margin-left: 30px;
+}
+#all-client1{
+	margin-top: 50px;
+}
+#client1{
+	margin: auto;
+}
+#client2{
+	margin: auto;
+}
+#pc1 {
+	float: right;
+	text-align: justify;
+    margin-top: 40px;
+    padding-right: 40px;
+    margin-left: 20px;
+}
+#top{
+	margin-top: 70px;
+	margin-bottom: 60px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.img-c{
+	margin-right: auto;
+	height: 29px;
+}
+.viñeta1{
+	float: right;
+	position: relative;
+	background: #eee;
+	padding: 18px;
+	width: 65%;
+	margin-left: 23px;
+	margin-top: 12px;
+}
+.viñeta2{
+	float: left;
+	position: relative;
+	background: #eee;
+	padding: 1em;
+	width: 65%;
+	margin-top: 46px;
+}
+.viñeta1 p{
+   font-family: 'Open Sans', sans-serif;
+	font-size: 1em;
+    padding: 1.5em;
+	color:#c0c0c0;
+	line-height: 1.5em;
+	text-align: center;
+	margin: 0 auto;
+	width:93%;
+	font-weight:600;
+}
+.viñeta2 p{
+ font-family: 'Open Sans', sans-serif;
+	font-size: 1em;
+    padding: 1.5em;
+	color:#c0c0c0;
+	line-height: 1.5em;
+	text-align: center;
+	margin: 0 auto;
+	width:93%;
+	font-weight:600;
+}
+.viñeta1:before{
+	content: '';
+	position: absolute;
+	width: 0;
+	height: 0;
+	left: -20px;
+	border-top: 10px solid rgba(0, 0, 0, 0);
+	border-right: 20px solid #eee;
+	border-bottom: 10px solid rgba(0, 0, 0, 0);
+	top: 73px;
+}
+.viñeta2:after{
+	content: '';
+	position: absolute;
+	width: 0;
+	height: 0;
+	right: -20px;
+	border-top: 10px solid rgba(0, 0, 0, 0);
+	border-left: 20px solid #eee;
+	border-bottom: 10px solid rgba(0, 0, 0, 0);
+	top: 76px;
+}
+.viñeta1 h6{
+	margin-bottom: 2%;
+	margin-left: 80px;
+	font-size: 14px;
+	color:#5193CB;
+}
+.viñeta1 h6 a{
+   font-family: 'Open Sans', sans-serif;
+	font-size: 1em;
+	color:#5193CB;
+	font-weight:600;
+}
+.viñeta2 h7{
+	margin-bottom: 2%;
+	margin-left: 73px;
+	font-size: 14px;
+	color:#5193CB;
+}
+.viñeta2 h7 a{
+   font-family: 'Open Sans', sans-serif;
+	font-size: 1em;
+	color:#5193CB;
+	font-weight:600;
+}
