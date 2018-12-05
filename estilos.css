@@ -6,6 +6,9 @@ body{
 	margin:0 auto;
 	width:80%;
 }
+.contenedor{
+   width: 100%;
+}
 header{
 	background:url("img/background1.jpg");
 	height: 736px;
