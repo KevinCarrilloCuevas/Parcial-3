@@ -47,7 +47,6 @@ h3
 ul{
     margin-top: 25px;
     padding-top: 0px;
-    margin-left: 14px;
 }
 ul li{
 	display: block;
@@ -60,13 +59,15 @@ li a{
     display: block;
     border-top: 5px solid transparent;
 }
+#menu1 nav ul li a:hover {
+  color:#E47065;
+}
 .boton1{
     float: none;
     text-align: center;
     display: inline-block;
     margin-top: 80px;
-    color: #FFFFFF;
-    text-decoration: none;
+    color: white;
     font-size: 29px;
     font-style: normal;
     font-weight: lighter;
@@ -76,6 +77,34 @@ li a{
     padding-right: 78.5px;
     padding-left: 78.5px;
     padding-bottom: 14px;
+}
+.boton1 a{
+    text-decoration: none;
+}
+.boton1 span{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+    color: white;
+}
+.boton1 span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+  color: white;
+}
+
+.boton1:hover span {
+  padding-right: 25px;
+}
+
+.boton1:hover span:after {
+  opacity: 1;
+  right: 0;
 }
 .boton
 {
